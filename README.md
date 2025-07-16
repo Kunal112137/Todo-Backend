@@ -1,4 +1,6 @@
 # To-Do Board Backend
+Vercel= https://vercel.com/kunals-projects-9657dd3a/todo-frontend-bn1k
+Render = https://todo-backend-yq17.onrender.com
 
 Real-time collaborative To-Do board backend API built with Node.js, Express, MongoDB, and Socket.IO.
 
@@ -22,10 +24,10 @@ Real-time collaborative To-Do board backend API built with Node.js, Express, Mon
 2. **Environment Setup:**
    Create a `.env` file in the backend directory with:
    ```
-   MONGODB_URI=mongodb://localhost:27017/todo-board
-   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-   PORT=5000
-   FRONTEND_URL=http://localhost:5173
+ MONGODB_URI=mongodb+srv://kunalchavhan49:kunal1234@cluster0.jbmkxmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=abcxyzmnopqr
+PORT=5000
+FRONTEND_URL=http://localhost:5173
    ```
 
 3. **Start MongoDB:**
