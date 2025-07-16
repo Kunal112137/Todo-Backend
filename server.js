@@ -16,7 +16,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: config.FRONTEND_URL, // Vite dev server
+    origin: process.env.FRONTEND_URL, // Vite dev server
     methods: ["GET", "POST"]
   }
 });
